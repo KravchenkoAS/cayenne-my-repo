@@ -1,0 +1,8 @@
+target
+.project
+bin/
+.idea
+*.iml
+.factorypath
+build
+.gradle
