@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-      GITHUB_USERNAME: KravchenkoAS
+      GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v1
